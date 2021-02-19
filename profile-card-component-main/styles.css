@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
 
 .attribution { 
     font-size: 11px; 
@@ -42,8 +42,9 @@ p {
     border-radius: 10px;
     background: white;
     text-align: center;
-    width: 500px;
+    width: 400px;
     height: auto;
+    position: relative;
 }
 
 .card-header {
@@ -52,20 +53,43 @@ p {
     border-radius: 10px 10px 0 0;
 }
 
+.card-profile {
+    margin-top: 90px;
+    margin-bottom: 30px;
+}
+
+.card-profile h1 {
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 0;
+}
+
 img {
     border-radius: 50%;
     border: 5px white solid;
+    position: absolute;
+    top: 27%;
+    left: 37%;
+}
+
+.special {
+    color:hsl(0, 0%, 59%);
+    font-weight: 400;
 }
 
 .card-footer {
-    border-top: 1px hsl(227, 10%, 46%) solid;
+    border-top: 1px hsl(0deg 0% 90%) solid;
     background: #fff;
     border-radius: 0 0 10px 10px;
     display: flex;
     justify-content: space-evenly;
 }
 
+.card-footer h1 {
+    margin-bottom: 0;
+}
+
 .followers p, .likes p, .photos p {
-    padding: 0;
+    padding-top: 5px;
     margin: 0;
 }
