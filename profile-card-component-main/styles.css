@@ -15,6 +15,7 @@ body {
     margin: 0 auto;
     padding: 0;
     box-sizing: border-box; 
+    background: hsl(185, 75%, 39%);
     background-image: url("images/bg-pattern-top.svg"), url("images/bg-pattern-bottom.svg");
     background-repeat: no-repeat, no-repeat;
     background-position-x: -25%;
@@ -35,7 +36,7 @@ p {
 .container {
     display: flex;
     justify-content: center;
-    padding: 50px;
+    padding: 200px;
 }
 
 .card {
@@ -83,10 +84,11 @@ img {
     border-radius: 0 0 10px 10px;
     display: flex;
     justify-content: space-evenly;
+    padding: 20px;
 }
 
 .card-footer h1 {
-    margin-bottom: 0;
+    margin: 0;
 }
 
 .followers p, .likes p, .photos p {
