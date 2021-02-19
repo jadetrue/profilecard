@@ -17,10 +17,10 @@ body {
     padding: 0;
     box-sizing: border-box; 
     background: hsl(185, 75%, 39%);
-    background-image: url("images/bg-pattern-top.svg");
-    background-repeat: no-repeat;
-    background-position-x: -10%;
-    background-position-y: 315%;
+    background-image: url("images/bg-pattern-top.svg"), url("images/bg-pattern-bottom.svg");
+    background-repeat: no-repeat, no-repeat;
+    background-position-x: -10%, 110%;
+    background-position-y: 315%, -270%;
 }
 
 h1 {
@@ -38,6 +38,12 @@ p {
     display: flex;
     justify-content: center;
     padding: 200px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
 }
 
 .card {
