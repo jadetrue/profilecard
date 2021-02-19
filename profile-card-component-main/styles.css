@@ -20,7 +20,13 @@ body {
     background-image: url("images/bg-pattern-top.svg"), url("images/bg-pattern-bottom.svg");
     background-repeat: no-repeat, no-repeat;
     background-position-x: -10%, 110%;
-    background-position-y: 315%, -270%;
+    background-position-y: 315%, -240%;
+}
+
+@media (max-width: 768px) {
+    body {
+        background-image: none;
+    }
 }
 
 h1 {
@@ -50,7 +56,7 @@ p {
     border-radius: 10px;
     background: white;
     text-align: center;
-    width: 400px;
+    width: 350px;
     height: auto;
     position: relative;
     box-shadow: 0px 0px 15px -5px hsl(227deg 10% 46%);
@@ -77,8 +83,8 @@ img {
     border-radius: 50%;
     border: 5px white solid;
     position: absolute;
-    top: 27%;
-    left: 37%;
+    top: 25%;
+    left: 35%;
 }
 
 .special {
