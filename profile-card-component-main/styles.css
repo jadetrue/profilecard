@@ -16,10 +16,10 @@ body {
     padding: 0;
     box-sizing: border-box; 
     background: hsl(185, 75%, 39%);
-    background-image: url("images/bg-pattern-top.svg"), url("images/bg-pattern-bottom.svg");
-    background-repeat: no-repeat, no-repeat;
-    background-position-x: -25%;
-    background-position-y: 125%;
+    background-image: url("images/bg-pattern-top.svg");
+    background-repeat: no-repeat;
+    background-position-x: -10%;
+    background-position-y: 315%;
 }
 
 h1 {
